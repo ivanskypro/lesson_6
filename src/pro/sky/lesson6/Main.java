@@ -29,7 +29,6 @@ public class Main {
 
         System.out.println("Задание №2");
         int min = outgo[0];
-        int minIndex = 0;
         for (int i = 1; i < outgo.length; i++) {
             if (outgo[i] < min) {
                 min = outgo[i];
@@ -37,7 +36,6 @@ public class Main {
         }
         System.out.println("Минимальная сумма трат за день составила " + min + " рублей");
         int max = outgo[0];
-        int maxIndex = 0;
         for (int i = 1; i < outgo.length; i++) {
             if (outgo[i] > max) {
                 max = outgo[i];
